@@ -14,6 +14,7 @@
 		<Copyright>MIT</Copyright>
 		<PackageProjectUrl>https://github.com/drasticactions/Drastic.UI</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/drasticactions/Drastic.UI</RepositoryUrl>
+		<PackageIcon>ninjajajamarukun.png</PackageIcon>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 	  <EnableCodeSigning>false</EnableCodeSigning>
@@ -40,5 +41,6 @@
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
+		<None Include="..\..\assets\ninjajajamarukun.png" Pack="true" PackagePath=""/>
 	</ItemGroup>
 </Project>

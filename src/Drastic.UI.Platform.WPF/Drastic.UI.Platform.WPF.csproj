@@ -17,6 +17,7 @@
 		<Copyright>MIT</Copyright>
 		<PackageProjectUrl>https://github.com/drasticactions/Drastic.UI</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/drasticactions/Drastic.UI</RepositoryUrl>
+    <PackageIcon>ninjajajamarukun.png</PackageIcon>
 	</PropertyGroup>
   <PropertyGroup>
     <NoWarn>$(NoWarn);NU1701</NoWarn>
@@ -40,5 +41,6 @@
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
+    <None Include="..\..\assets\ninjajajamarukun.png" Pack="true" PackagePath=""/>
 	</ItemGroup>
 </Project>
