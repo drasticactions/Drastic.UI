@@ -9,3 +9,7 @@ Drastic UI is a cross-platform UI framework for macOS and Windows, intended for 
 A direct port of the macOS Forms platforms, Drastic UI has all of its features. I've only changed the namespace (to not conflict with Xamarin Forms) and updated the implementations to work on .NET6+. All included controls should work as they do in Xamarin Forms 5, but honestly, I only cared about the grid and buttons. YMMV.
 
 I do not intend Drastic UI as a "Production" framework. It's a hack that lets me quickly make a UI with an API I already know, which could be helpful for others in the same situation. 
+
+## Setup:
+
+Setting up the project is idential to setting up Xamarin.Forms on [macOS](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/mac) or [WPF](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/wpf). The only difference, besides using `net6` projects instead of .NET Framework, is using the `Drastic.UI.macOS` or `Drastic.UI.WPF` nugets or source projects.
