@@ -3,31 +3,17 @@
 	<PropertyGroup>
 		<TargetFramework>net6.0-macos</TargetFramework>
 	</PropertyGroup>
-	<PropertyGroup>
-		<PackageId>Drastic.UI.macOS</PackageId>
-		<Description>Yet another Quick and Dirty UI Framework for macOS.</Description>
-		<PackageTags>ui macos cross platform forms</PackageTags>
-		<IncludeSymbols>true</IncludeSymbols>
-		<Authors>Drastic Actions</Authors>
-		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-		<Company>Drastic Actions</Company>
-		<Copyright>MIT</Copyright>
-		<PackageProjectUrl>https://github.com/drasticactions/Drastic.UI</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/drasticactions/Drastic.UI</RepositoryUrl>
-		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-		<PackageIcon>ninjajajamarukun.png</PackageIcon>
-	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-	  <EnableCodeSigning>false</EnableCodeSigning>
-	  <UseSGen>false</UseSGen>
+		<EnableCodeSigning>false</EnableCodeSigning>
+		<UseSGen>false</UseSGen>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-	  <EnableCodeSigning>false</EnableCodeSigning>
-	  <UseSGen>false</UseSGen>
+		<EnableCodeSigning>false</EnableCodeSigning>
+		<UseSGen>false</UseSGen>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj"  PrivateAssets="All" />
-		<ProjectReference Include="..\Drastic.UI.Platform\Drastic.UI.Platform.csproj"  PrivateAssets="All" />
+		<ProjectReference Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj" PrivateAssets="All" />
+		<ProjectReference Include="..\Drastic.UI.Platform\Drastic.UI.Platform.csproj" PrivateAssets="All" />
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="..\Drastic.UI.Core\Crc64.cs">
@@ -42,6 +28,5 @@
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
-		<None Include="..\..\assets\ninjajajamarukun.png" Pack="true" PackagePath=""/>
 	</ItemGroup>
 </Project>

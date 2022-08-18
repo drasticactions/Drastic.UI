@@ -1,29 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32817.154
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.UI.Core", "Drastic.UI.Core\Drastic.UI.Core.csproj", "{1EA29C68-E9CB-43CE-B389-E67A4606E27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.UI.Core", "Drastic.UI.Core\Drastic.UI.Core.csproj", "{1EA29C68-E9CB-43CE-B389-E67A4606E27E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.UI.Platform", "Drastic.UI.Platform\Drastic.UI.Platform.csproj", "{4D6E060E-54DC-4C4A-819E-CD41B36222E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.UI.Platform", "Drastic.UI.Platform\Drastic.UI.Platform.csproj", "{4D6E060E-54DC-4C4A-819E-CD41B36222E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.UI.Platform.MacOS", "Drastic.UI.Platform.MacOS\Drastic.UI.Platform.MacOS.csproj", "{D4A2C2F0-4162-4DA3-8EAB-4D2A840F982C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.UI.Platform.MacOS", "Drastic.UI.Platform.MacOS\Drastic.UI.Platform.MacOS.csproj", "{D4A2C2F0-4162-4DA3-8EAB-4D2A840F982C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.UI.Platform.WPF", "Drastic.UI.Platform.WPF\Drastic.UI.Platform.WPF.csproj", "{C5EAE1E8-CF3E-4704-B6CE-C6AE2BF13AE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.UI.Platform.WPF", "Drastic.UI.Platform.WPF\Drastic.UI.Platform.WPF.csproj", "{C5EAE1E8-CF3E-4704-B6CE-C6AE2BF13AE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{4CA595D8-4AA3-4D4F-B35F-78A2F658A340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "..\sample\SampleApp\SampleApp\SampleApp.csproj", "{1A0094EF-89DD-4797-ACC7-E8D6DD3BCD79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp", "..\sample\SampleApp\SampleApp\SampleApp.csproj", "{1A0094EF-89DD-4797-ACC7-E8D6DD3BCD79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.MacOS", "..\sample\SampleApp\SampleApp.MacOS\SampleApp.MacOS.csproj", "{EF4CA01C-9034-4039-8901-C70DE1D68E49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.MacOS", "..\sample\SampleApp\SampleApp.MacOS\SampleApp.MacOS.csproj", "{EF4CA01C-9034-4039-8901-C70DE1D68E49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.WPF", "..\sample\SampleApp\SampleApp.WPF\SampleApp.WPF.csproj", "{3996F93A-7350-4FBC-836B-E853F09848DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1EA29C68-E9CB-43CE-B389-E67A4606E27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -50,9 +49,20 @@ Global
 		{EF4CA01C-9034-4039-8901-C70DE1D68E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF4CA01C-9034-4039-8901-C70DE1D68E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF4CA01C-9034-4039-8901-C70DE1D68E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3996F93A-7350-4FBC-836B-E853F09848DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3996F93A-7350-4FBC-836B-E853F09848DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3996F93A-7350-4FBC-836B-E853F09848DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3996F93A-7350-4FBC-836B-E853F09848DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1A0094EF-89DD-4797-ACC7-E8D6DD3BCD79} = {4CA595D8-4AA3-4D4F-B35F-78A2F658A340}
 		{EF4CA01C-9034-4039-8901-C70DE1D68E49} = {4CA595D8-4AA3-4D4F-B35F-78A2F658A340}
+		{3996F93A-7350-4FBC-836B-E853F09848DB} = {4CA595D8-4AA3-4D4F-B35F-78A2F658A340}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA942AB7-DBDD-483C-AA9A-A9177E23B183}
 	EndGlobalSection
 EndGlobal

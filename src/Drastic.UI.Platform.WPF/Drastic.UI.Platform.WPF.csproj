@@ -1,47 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-  <PropertyGroup>
-    <TargetFrameworks>net6.0-windows</TargetFrameworks>
-    <UseWPF>true</UseWPF>
-    <UseWindowsForms>true</UseWindowsForms>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <EnableWindowsTargeting>true</EnableWindowsTargeting>
-  </PropertyGroup>
 	<PropertyGroup>
-		<PackageId>Drastic.UI.WPF</PackageId>
-		<Description>Yet another Quick and Dirty UI Framework for Windows.</Description>
-		<PackageTags>ui windows cross platform forms</PackageTags>
-		<IncludeSymbols>true</IncludeSymbols>
-		<Authors>Drastic Actions</Authors>
-		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-		<Company>Drastic Actions</Company>
-		<Copyright>MIT</Copyright>
-    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-		<PackageProjectUrl>https://github.com/drasticactions/Drastic.UI</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/drasticactions/Drastic.UI</RepositoryUrl>
-    <PackageIcon>ninjajajamarukun.png</PackageIcon>
+		<TargetFrameworks>net6.0-windows</TargetFrameworks>
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>true</UseWindowsForms>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
 	</PropertyGroup>
-  <PropertyGroup>
-    <NoWarn>$(NoWarn);NU1701</NoWarn>
-  </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference PrivateAssets="All" Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj">
-      <ReferenceSourceTarget></ReferenceSourceTarget>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\Drastic.UI.Core\Crc64.cs">
-      <Link>Crc64.cs</Link>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="OpenTK" Version="3.0.1" />
-    <PackageReference Include="OpenTK.GLControl" Version="3.0.1" />
-  </ItemGroup>
-  <ItemGroup>
+	<PropertyGroup>
+		<NoWarn>$(NoWarn);NU1701</NoWarn>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference PrivateAssets="All" Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj">
+			<ReferenceSourceTarget></ReferenceSourceTarget>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="..\Drastic.UI.Core\Crc64.cs">
+			<Link>Crc64.cs</Link>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="OpenTK" Version="3.0.1" />
+		<PackageReference Include="OpenTK.GLControl" Version="3.0.1" />
+	</ItemGroup>
+	<ItemGroup>
 		<None Include="..\..\LICENSE.md">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
-    <None Include="..\..\assets\ninjajajamarukun.png" Pack="true" PackagePath=""/>
 	</ItemGroup>
 </Project>
