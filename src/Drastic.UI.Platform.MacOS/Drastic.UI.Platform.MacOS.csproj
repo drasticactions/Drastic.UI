@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0-macos</TargetFramework>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	  <EnableCodeSigning>false</EnableCodeSigning>
+	  <UseSGen>false</UseSGen>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	  <EnableCodeSigning>false</EnableCodeSigning>
+	  <UseSGen>false</UseSGen>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj" />
+		<ProjectReference Include="..\Drastic.UI.Platform\Drastic.UI.Platform.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="..\Drastic.UI.Core\Crc64.cs">
+			<Link>Crc64.cs</Link>
+		</Compile>
+		<Compile Include="..\Drastic.UI.Core\StreamWrapper.cs">
+			<Link>StreamWrapper.cs</Link>
+		</Compile>
+	</ItemGroup>
+</Project>
