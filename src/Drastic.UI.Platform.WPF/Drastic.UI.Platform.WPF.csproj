@@ -24,7 +24,7 @@
     <NoWarn>$(NoWarn);NU1701</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj">
+    <ProjectReference PrivateAssets="All" Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj">
       <ReferenceSourceTarget></ReferenceSourceTarget>
     </ProjectReference>
   </ItemGroup>

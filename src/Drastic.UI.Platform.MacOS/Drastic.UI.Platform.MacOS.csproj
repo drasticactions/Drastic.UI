@@ -26,8 +26,8 @@
 	  <UseSGen>false</UseSGen>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj" />
-		<ProjectReference Include="..\Drastic.UI.Platform\Drastic.UI.Platform.csproj" />
+		<ProjectReference Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj"  PrivateAssets="All" />
+		<ProjectReference Include="..\Drastic.UI.Platform\Drastic.UI.Platform.csproj"  PrivateAssets="All" />
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="..\Drastic.UI.Core\Crc64.cs">
