@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Drastic.UI</id>
+    <version>$version$</version>
+    <authors>Drastic Actions</authors>
+    <license type="file">LICENSE.md</license>
+    <icon>Assets\icon.png</icon>
+    <projectUrl>https://github.com/drasticactions/Drastic.UI</projectUrl>
+    <description>Yet another Quick and Dirty UI Framework for Windows and macOS.</description>
+    <copyright>MIT</copyright>
+    <tags>ui windows macos cross platform forms</tags>
+    <repository url="https://github.com/drasticactions/Drastic.UI" />
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+      </group>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="OpenTK" version="3.0.1" exclude="Build,Analyzers" />
+        <dependency id="OpenTK.GLControl" version="3.0.1" exclude="Build,Analyzers" />
+      </group>
+       <group targetFramework="net6.0-macos12.3">
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+        <file src="..\..\assets\icon.png" target="Assets\" />
+        <file src="..\..\LICENSE.md" target="\" />
+        <file src="..\Drastic.UI.Core\bin\$Configuration$\netstandard2.0\Drastic.UI.Core.dll" target="lib\netstandard2.0" />
+        <file src="..\Drastic.UI.Core\bin\$Configuration$\netstandard2.0\Drastic.UI.Core.*pdb" target="lib\netstandard2.0" />
+        <file src="..\Drastic.UI.Core\bin\$Configuration$\netstandard2.0\Drastic.UI.Core.*mdb" target="lib\netstandard2.0" />
+
+        <file src="..\Drastic.UI.Core\bin\$Configuration$\netstandard2.0\Drastic.UI.Core.dll" target="lib\net6.0-macos12.3" />
+        <file src="..\Drastic.UI.Platform.MacOS\bin\$Configuration$\net6.0-macos\Drastic.UI.Platform.dll" target="lib\net6.0-macos12.3" />
+        <file src="..\Drastic.UI.Platform.MacOS\bin\$Configuration$\net6.0-macos\Drastic.UI.Platform.MacOS.dll" target="lib\net6.0-macos12.3" />
+
+        <file src="..\Drastic.UI.Core\bin\$Configuration$\netstandard2.0\Drastic.UI.Core.dll" target="lib\net6.0-windows7.0" />
+        <file src="..\Drastic.UI.Platform.WPF\bin\$Configuration$\net6.0-windows\Drastic.UI.Platform.WPF.dll" target="lib\net6.0-windows7.0" />
+        <file src="..\Drastic.UI.Platform.WPF\bin\$Configuration$\net6.0-windows\Drastic.UI.Platform.WPF.*pdb" target="lib\net6.0-windows7.0" />
+  </files>
+</package>
