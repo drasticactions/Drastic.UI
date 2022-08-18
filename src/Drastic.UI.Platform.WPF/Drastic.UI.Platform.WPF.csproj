@@ -6,6 +6,18 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Drastic.UI.WPF</PackageId>
+		<Description>Yet another Quick and Dirty UI Framework for Windows.</Description>
+		<PackageTags>ui windows cross platform forms</PackageTags>
+		<IncludeSymbols>true</IncludeSymbols>
+		<Authors>Drastic Actions</Authors>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Company>Drastic Actions</Company>
+		<Copyright>MIT</Copyright>
+		<PackageProjectUrl>https://github.com/drasticactions/Drastic.UI</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/drasticactions/Drastic.UI</RepositoryUrl>
+	</PropertyGroup>
   <PropertyGroup>
     <NoWarn>$(NoWarn);NU1701</NoWarn>
   </PropertyGroup>
@@ -23,4 +35,16 @@
     <PackageReference Include="OpenTK" Version="3.0.1" />
     <PackageReference Include="OpenTK.GLControl" Version="3.0.1" />
   </ItemGroup>
+  <ItemGroup>
+		<PackageReference Include="MinVer" Version="4.1.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+  <ItemGroup>
+		<None Include="..\..\LICENSE.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 </Project>

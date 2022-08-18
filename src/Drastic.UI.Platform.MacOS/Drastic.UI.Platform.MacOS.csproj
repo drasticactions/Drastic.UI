@@ -3,6 +3,18 @@
 	<PropertyGroup>
 		<TargetFramework>net6.0-macos</TargetFramework>
 	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Drastic.UI.macOS</PackageId>
+		<Description>Yet another Quick and Dirty UI Framework for macOS.</Description>
+		<PackageTags>ui macos cross platform forms</PackageTags>
+		<IncludeSymbols>true</IncludeSymbols>
+		<Authors>Drastic Actions</Authors>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Company>Drastic Actions</Company>
+		<Copyright>MIT</Copyright>
+		<PackageProjectUrl>https://github.com/drasticactions/Drastic.UI</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/drasticactions/Drastic.UI</RepositoryUrl>
+	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 	  <EnableCodeSigning>false</EnableCodeSigning>
 	  <UseSGen>false</UseSGen>
@@ -22,5 +34,17 @@
 		<Compile Include="..\Drastic.UI.Core\StreamWrapper.cs">
 			<Link>StreamWrapper.cs</Link>
 		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MinVer" Version="4.1.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\LICENSE.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
 	</ItemGroup>
 </Project>
