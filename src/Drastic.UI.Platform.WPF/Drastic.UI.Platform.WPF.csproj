@@ -15,6 +15,7 @@
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<Company>Drastic Actions</Company>
 		<Copyright>MIT</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 		<PackageProjectUrl>https://github.com/drasticactions/Drastic.UI</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/drasticactions/Drastic.UI</RepositoryUrl>
     <PackageIcon>ninjajajamarukun.png</PackageIcon>
