@@ -22,41 +22,20 @@
 		<ProjectReference Include="..\SampleApp\SampleApp.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-		<ImageAsset Update="Assets.xcassets\Contents.json">
-			<Link>Assets.xcassets\Contents.json</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-32%402x.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-32%402x.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-16%402x.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-16%402x.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-512.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-512.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-128.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-128.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-16.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-16.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-32.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-32.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\Contents.json">
-			<Link>Assets.xcassets\AppIcon.appiconset\Contents.json</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-256.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-256.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png</Link>
-		</ImageAsset>
-		<ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png">
-			<Link>Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png</Link>
-		</ImageAsset>
+	  <ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png">
+	    <Link>Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png</Link>
+	  </ImageAsset>
+	  <ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-32%402x.png">
+	    <Link>Assets.xcassets\AppIcon.appiconset\AppIcon-32%402x.png</Link>
+	  </ImageAsset>
+	  <ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-16%402x.png">
+	    <Link>Assets.xcassets\AppIcon.appiconset\AppIcon-16%402x.png</Link>
+	  </ImageAsset>
+	  <ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png">
+	    <Link>Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png</Link>
+	  </ImageAsset>
+	  <ImageAsset Update="Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png">
+	    <Link>Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png</Link>
+	  </ImageAsset>
 	</ItemGroup>
 </Project>

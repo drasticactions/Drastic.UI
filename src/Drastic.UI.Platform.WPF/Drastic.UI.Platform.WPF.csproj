@@ -1,4 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 	<PropertyGroup>
 		<TargetFrameworks>net6.0-windows</TargetFrameworks>
 		<UseWPF>true</UseWPF>
@@ -11,7 +12,8 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference PrivateAssets="All" Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj">
-			<ReferenceSourceTarget></ReferenceSourceTarget>
+			<ReferenceSourceTarget>
+			</ReferenceSourceTarget>
 		</ProjectReference>
 	</ItemGroup>
 	<ItemGroup>
@@ -26,7 +28,8 @@
 	<ItemGroup>
 		<None Include="..\..\LICENSE.md">
 			<Pack>True</Pack>
-			<PackagePath></PackagePath>
+			<PackagePath>
+			</PackagePath>
 		</None>
 	</ItemGroup>
 </Project>

@@ -8,9 +8,15 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\..\src\Drastic.UI.Core\Drastic.UI.Core.csproj" />
-		<ProjectReference Include="..\..\..\src\Drastic.UI.Platform.WPF\Drastic.UI.Platform.WPF.csproj" />
-		<ProjectReference Include="..\SampleApp\SampleApp.csproj" />
+		<ProjectReference Include="..\..\..\src\Drastic.UI.Core\Drastic.UI.Core.csproj">
+		  <ReferenceSourceTarget></ReferenceSourceTarget>
+		</ProjectReference>
+		<ProjectReference Include="..\..\..\src\Drastic.UI.Platform.WPF\Drastic.UI.Platform.WPF.csproj">
+		  <ReferenceSourceTarget></ReferenceSourceTarget>
+		</ProjectReference>
+		<ProjectReference Include="..\SampleApp\SampleApp.csproj">
+		  <ReferenceSourceTarget></ReferenceSourceTarget>
+		</ProjectReference>
 	</ItemGroup>
 
 </Project>
