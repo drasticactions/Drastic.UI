@@ -2,9 +2,10 @@
 
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<TargetFramework>net6.0-windows</TargetFramework>
+		<TargetFrameworks>net6.0-windows;net472</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<UseWPF>true</UseWPF>
+		<LangVersion>preview</LangVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
