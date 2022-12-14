@@ -45,7 +45,7 @@
 	  </ImageAsset>
 	</ItemGroup>
 	<ItemGroup>
-	  <BundleResource Condition="'$(_ResourcePrefix)' != ''" Update="Resources\TrayIcon.ico">
+	  <BundleResource Update="Resources\TrayIcon.ico">
 	    <Link>Resources\TrayIcon.ico</Link>
 	  </BundleResource>
 	</ItemGroup>

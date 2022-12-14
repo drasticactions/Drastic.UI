@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
+		<DefineConstants>
+		  <DefineConstants>$(DefineConstants);__MOBILE__</DefineConstants>
+		</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<EnableCodeSigning>false</EnableCodeSigning>
+		<UseSGen>false</UseSGen>
+		<CreatePackage>false</CreatePackage>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<EnableCodeSigning>false</EnableCodeSigning>
+		<UseSGen>false</UseSGen>
+		<CreatePackage>false</CreatePackage>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Drastic.UI.Core\Drastic.UI.Core.csproj" PrivateAssets="All" />
+		<ProjectReference Include="..\Drastic.UI.Platform\Drastic.UI.Platform.csproj" PrivateAssets="All" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="..\Drastic.UI.Core\Crc64.cs">
+			<Link>Crc64.cs</Link>
+		</Compile>
+		<Compile Include="..\Drastic.UI.Core\StreamWrapper.cs">
+			<Link>StreamWrapper.cs</Link>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\LICENSE.md">
+			<Pack>True</Pack>
+			<PackagePath>
+			</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
